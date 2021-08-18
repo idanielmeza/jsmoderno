@@ -1,0 +1,18 @@
+{
+  "clientes": [
+    {
+      "nombre": "Daniel Meza Ledezma",
+      "email": "idanielmezaledezma@gmail.com",
+      "telefono": "3728932189",
+      "empresa": "Syntrax",
+      "id": 1
+    },
+    {
+      "nombre": "Matias",
+      "email": "mati@matias.es",
+      "telefono": "73829273291",
+      "empresa": "Tomates INC.",
+      "id": 2
+    }
+  ]
+}

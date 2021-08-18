@@ -1,0 +1,17 @@
+{
+  "name": "51-testing-jest",
+  "version": "1.0.0",
+  "description": "Aprendinedo Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Eduardo Daniel Meza Ledezma",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4"
+  }
+}

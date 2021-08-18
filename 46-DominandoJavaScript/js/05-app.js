@@ -1,0 +1,19 @@
+//Explicit Biding
+
+function persona(el1,el2){
+    console.log(`Mi nombre es ${this.nombre} y Escucho el ${el1} y el ${el2}`);
+}
+
+
+const informacion = {
+    nombre: 'Daniel'
+}
+
+const musicaFavorita = ['TRAP', 'Reggaeton'];
+
+persona.call(informacion,musicaFavorita[0], musicaFavorita[1]);
+
+persona.apply(informacion, musicaFavorita);
+
+const nuevaFn = persona.bind(informacion,musicaFavorita[0], musicaFavorita[1]);
+nuevaFn();

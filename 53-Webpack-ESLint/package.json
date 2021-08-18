@@ -1,0 +1,29 @@
+{
+  "name": "53-webpack-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "babel": "babel entrada.js --out-file salida.js --presets=@babel/preset-env",
+    "webpack": "webpack",
+    "dev": "concurrently --kill-others \"npm run watch\"  \"webpack serve\"",
+    "watch": "webpack -w"
+  },
+  "author": "Eduardo Daniel Meza Ledezma",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "concurrently": "^6.2.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
